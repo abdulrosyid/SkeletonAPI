@@ -1,7 +1,10 @@
 # Warung Pintar Test
 
+* Content root path main : 
+```sh
+cmd/rest/main.go
+```
 * To run :
-
 ```sh
 $ go run main.go
 ```
