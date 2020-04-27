@@ -6,7 +6,7 @@ cmd/rest/main.go
 ```
 * To run :
 ```sh
-$ go run main.go
+$ go run cmd/rest/main.go
 ```
 * Script cURL for add message :
 ```sh
