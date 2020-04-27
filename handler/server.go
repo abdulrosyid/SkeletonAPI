@@ -5,9 +5,11 @@ import (
 	"fmt"
 	"github.com/labstack/echo"
 	echoMid "github.com/labstack/echo/middleware"
+	"golang.org/x/net/websocket"
 	"net/http"
 	"os"
 	"os/signal"
+	"strings"
 	"time"
 )
 
@@ -22,7 +24,32 @@ func (s *Service) HTTPServerMain() *echo.Echo {
 	group := e.Group("wp/api")
 	s.MessageHandler.Mount(group)
 
+	e.GET("/ws", startWebSocket)
 	return e
+}
+
+func startWebSocket(c echo.Context) error {
+	var listMessage []string
+	websocket.Handler(func(ws *websocket.Conn) {
+		defer ws.Close()
+		for {
+			// Write
+			err := websocket.Message.Send(ws, strings.Join(listMessage, ", "))
+			if err != nil {
+				c.Logger().Error(err)
+			}
+
+			// Read
+			msg := ""
+			err = websocket.Message.Receive(ws, &msg)
+			if err != nil {
+				c.Logger().Error(err)
+			}
+			listMessage = append(listMessage, msg)
+			fmt.Printf("%s\n", msg)
+		}
+	}).ServeHTTP(c.Response(), c.Request())
+	return nil
 }
 
 func (s *Service) StartServer() {

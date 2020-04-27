@@ -8,4 +8,5 @@ require (
 	github.com/labstack/gommon v0.3.0 // indirect
 	github.com/stretchr/testify v1.5.1 // indirect
 	golang.org/x/crypto v0.0.0-20200423211502-4bdfaf469ed5 // indirect
+	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
 )
