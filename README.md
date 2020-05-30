@@ -1,4 +1,4 @@
-# Warung Pintar Test
+# Skeleton API
 
 * Content root path main : 
 ```sh
