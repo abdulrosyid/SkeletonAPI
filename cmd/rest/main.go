@@ -1,6 +1,6 @@
 package main
 
-import "WarungPintarAPI/handler"
+import "SkeletonAPI/handler"
 
 func main()  {
 	// Init dependencies

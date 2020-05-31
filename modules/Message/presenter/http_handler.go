@@ -1,7 +1,7 @@
 package presenter
 
 import (
-	"WarungPintarAPI/modules/Message/usecase"
+	"SkeletonAPI/modules/Message/usecase"
 	"github.com/labstack/echo"
 	"html/template"
 	"net/http"

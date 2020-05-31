@@ -1,6 +1,6 @@
 package usecase
 
-import "WarungPintarAPI/modules/Message/repo"
+import "SkeletonAPI/modules/Message/repo"
 
 type MessageUseCaseImpl struct {
 	MessageRepo repo.MessageRepository

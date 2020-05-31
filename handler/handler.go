@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"WarungPintarAPI/modules/Message/model"
-	"WarungPintarAPI/modules/Message/presenter"
-	"WarungPintarAPI/modules/Message/repo"
-	"WarungPintarAPI/modules/Message/usecase"
+	"SkeletonAPI/modules/Message/model"
+	"SkeletonAPI/modules/Message/presenter"
+	"SkeletonAPI/modules/Message/repo"
+	"SkeletonAPI/modules/Message/usecase"
 )
 
 type Service struct {

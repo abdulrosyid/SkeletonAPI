@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"WarungPintarAPI/modules/Message/model"
+	"SkeletonAPI/modules/Message/model"
 	"errors"
 )
 
