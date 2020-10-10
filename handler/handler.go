@@ -1,25 +1,27 @@
 package handler
 
 import (
-	"SkeletonAPI/modules/Message/model"
-	"SkeletonAPI/modules/Message/presenter"
-	"SkeletonAPI/modules/Message/repo"
-	"SkeletonAPI/modules/Message/usecase"
+	"SkeletonAPI/config"
+	"SkeletonAPI/modules/customer/presenter"
+	"SkeletonAPI/modules/customer/repo"
+	"SkeletonAPI/modules/customer/usecase"
 )
 
 type Service struct {
-	MessageHandler *presenter.HTTPMessageHandler
-	MessageUseCase usecase.MessageUseCase
+	CustomerHandler *presenter.HTTPMessageHandler
+	CustomerUseCase usecase.CustomerUseCase
 }
 
 func MakeHandler() *Service {
-	message := model.ListMessage{}
-	messageRepo := repo.NewMessageDataRepo(&message)
-	messageUseCase := usecase.NewMessageUseCase(messageRepo)
-	messageHandler := presenter.NewHTTPHandler(messageUseCase)
+	// ini connection DB
+	writeMysqlDB := config.PostgreSqlDB()
+
+	customerRepo := repo.NewCustomerRepo(writeMysqlDB)
+	customerUseCase := usecase.NewCustomerUseCase(customerRepo)
+	customerHandler := presenter.NewHTTPHandler(customerUseCase)
 
 	return &Service{
-		MessageHandler: messageHandler,
-		MessageUseCase: messageUseCase,
+		CustomerHandler: customerHandler,
+		CustomerUseCase: customerUseCase,
 	}
 }

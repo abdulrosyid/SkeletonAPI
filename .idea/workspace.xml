@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/postgresql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SkeletonAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SkeletonAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/rest/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/rest/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/model/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/model/customer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/presenter/http_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/presenter/http_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/repo/message_repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/repo/customer_repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/repo/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/usecase/message_usecase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Message/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/usecase/usecase.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1icgwWJOfp2vH80p7paRfhF8MZf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/config/env" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="go build SkeletonAPI/cmd/rest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="SkeletonAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/rest/main.go" />
+      <package value="SkeletonAPI/cmd/rest" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build SkeletonAPI/cmd/rest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="" />
+      <created>1602212533416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602212533416</updated>
+      <workItem from="1602212534648" duration="20610000" />
+      <workItem from="1602284709222" duration="1511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="275" key="#Go_Modules" timestamp="1602212578002">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="520" y="275" key="#Go_Modules/0.23.1440.825@0.23.1440.825" timestamp="1602212578002" />
+    <state x="430" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602229953430">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="430" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1602229953430" />
+    <state x="483" y="145" key="#xdebugger.evaluate" timestamp="1602283560356">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.825@0.23.1440.825" timestamp="1602283560356" />
+    <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1602254595080" />
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1602284686138">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602284686138" />
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1602284686138">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1602284686138" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1602284686137">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1602284686137" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1602284686138">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1602284686138" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1602284686139">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602284686139" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1602255406584" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1602284686139">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1602284686139" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1602255406583" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1602284686139">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1602284686139" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1602255406583" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1602284686139">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1602284686139" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406584" />
+    <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602253154689">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.826@0.23.1440.826" timestamp="1602253154689" />
+    <state x="354" y="79" key="new project wizard" timestamp="1602229819723">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="354" y="79" key="new project wizard/0.23.1440.825@0.23.1440.825" timestamp="1602229819723" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/modules/customer/presenter/http_handler.go</url>
+          <line>42</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
+          <line>68</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/modules/customer/repo/customer_repo.go</url>
+          <line>42</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
