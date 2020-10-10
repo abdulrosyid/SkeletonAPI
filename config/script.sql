@@ -18,7 +18,7 @@ CREATE TABLE account (
 	balance int8 NOT NULL
 );
 
-INSERT INTO public.account (account_number,customer_number,balance) VALUES
+INSERT INTO account (account_number,customer_number,balance) VALUES
 (555002,1002,10000)
 ,(555001,1001,5000)
 ;
