@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/customer/repo/customer_repo_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-    </list>
+    <list default="true" id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +69,7 @@
       <recent name="$PROJECT_DIR$/config/env" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCustomerRepo_TransferSaldo/Test_Success_Transfer_Saldo in SkeletonAPI/modules/customer/repo">
+  <component name="RunManager" selected="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -88,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
       <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
       <framework value="gotest" />
@@ -99,7 +94,7 @@
       <pattern value="^\QTestCustomerRepo_TransferSaldo\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
       <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
       <framework value="gotest" />
@@ -145,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)" />
+        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (1)" />
         <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo/Test_Success_Transfer_Saldo in SkeletonAPI/modules/customer/repo" />
         <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo" />
         <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (5)" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (4)" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602212533416</updated>
       <workItem from="1602212534648" duration="20610000" />
-      <workItem from="1602284709222" duration="10039000" />
+      <workItem from="1602284709222" duration="10323000" />
     </task>
     <servers />
   </component>
@@ -198,25 +193,25 @@
     </state>
     <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.825@0.23.1440.825" timestamp="1602475477932" />
     <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1602254595080" />
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1602475507723">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1602475772612">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602475772612" />
     <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1602475507723">
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1602475772611">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
     <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1602475507723">
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1602475772611">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
     <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1602475507723">
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1602475772611">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
     <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1602475507724">
       <screen x="0" y="23" width="1440" height="825" />
@@ -238,6 +233,14 @@
     </state>
     <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1602475507724" />
     <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406584" />
+    <state x="144" y="94" key="MergeDialog" timestamp="1602475804046">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="144" y="94" key="MergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1602475804046" />
+    <state x="358" y="203" key="MultipleFileMergeDialog" timestamp="1602475806011">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="358" y="203" key="MultipleFileMergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1602475806011" />
     <state width="720" height="411" key="XDebugger.FullValuePopup" timestamp="1602475154103">
       <screen x="0" y="23" width="1440" height="825" />
     </state>

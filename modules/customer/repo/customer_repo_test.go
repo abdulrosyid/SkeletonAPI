@@ -55,12 +55,12 @@ func TestCustomerRepo_TransferSaldo(t *testing.T) {
 		defer db.Close()
 
 		mock.ExpectBegin()
-		mock.ExpectPrepare(`UPDATE .+`).ExpectExec().
+		mock.ExpectPrepare(`update account set balance = balance - \$1 where account_number = \$2`).ExpectExec().
 			WithArgs(1, 1).
 			WillReturnResult(sqlMock.NewResult(1, 1))
 
-		mock.ExpectPrepare(`UPDATE .+`).ExpectExec().
-			WithArgs(2, 2).
+		mock.ExpectPrepare(`update account set balance = balance + \$1 where account_number = \$2`).ExpectExec().
+			WithArgs(1, 1).
 			WillReturnResult(sqlMock.NewResult(1, 1))
 
 		mock.ExpectCommit()
