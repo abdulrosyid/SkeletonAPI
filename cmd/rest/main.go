@@ -2,9 +2,12 @@ package main
 
 import (
 	"SkeletonAPI/handler"
+	"context"
 	"fmt"
 	configEnv "github.com/joho/godotenv"
 	"os"
+	"os/signal"
+	"time"
 )
 
 func main()  {
@@ -18,8 +21,17 @@ func main()  {
 	service := handler.MakeHandler()
 
 	// start echo server
-	service.StartServer()
+	server := service.StartServer()
 
 	// Shutdown with gracefull handler
-	service.ShutdownServer()
+	quit := make(chan os.Signal)
+	signal.Notify(quit, os.Interrupt)
+	<-quit
+
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	if err := server.Shutdown(ctx); err != nil {
+		server.Logger.Fatal(err.Error())
+	}
 }
