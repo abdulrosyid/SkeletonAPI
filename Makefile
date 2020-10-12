@@ -1,37 +1,26 @@
--include config-new
 REST_MAIN := "$(CURDIR)/cmd/rest"
 BIN_REST := "$(CURDIR)/bin/rest"
+MIGRATIONS_MAIN := "$(CURDIR)/cmd/migrations"
+BIN_MIGRATIONS := "$(CURDIR)/bin/migrations"
 
-.PHONY: prepare
-
-prepare: clean init fetch vendor
+install: clean init fetch build migrate
 
 init:
-	@go mod init SkeletonAPI; \
-	mkdir -p $(CURDIR)/temp
+	go mod init SkeletonAPI;
 
 fetch:
-	@go mod tidy
+	go mod tidy
 
-vendor:
-	@go mod vendor
+migrate:
+	$(BIN_MIGRATIONS)
 
-build-rest:
-	@go build -i -v -o $(BIN_REST) $(REST_MAIN)
+run:
+	$(BIN_REST)
 
-build-rest-vendor:
-	@go build -mod=vendor -ldflags="-w -s" -o $(BIN_REST) $(REST_MAIN)
-
-
-build: build-rest
-
-build-vendor: build-rest-vendor
-
-run-rest:
-	@go run $(CURDIR)/cmd/rest/main.go
-
-deploy: init build-vendor
+build:
+	go build -i -v -o $(BIN_REST) $(REST_MAIN); \
+	go build -i -v -o $(BIN_MIGRATIONS) $(MIGRATIONS_MAIN);
 
 clean:
-	@rm -f $(CURDIR)/go.mod $(CURDIR)/go.sum \
-	@rm -rf $(CURDIR)/bin $(CURDIR)/temp $(CURDIR)/vendor
+	rm -f $(CURDIR)/go.mod $(CURDIR)/go.sum; \
+	rm -rf $(CURDIR)/bin;
