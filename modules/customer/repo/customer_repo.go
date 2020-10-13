@@ -47,29 +47,38 @@ func (c *CustomerRepo) TransferSaldo(fromAccountNumber, toAccountNumber, balance
 
 	tx, err := c.DB.Begin()
 	if err != nil {
-
+		output.Error = err
+		return output
 	}
 
 	sqSubs := fmt.Sprintf(sq, "balance -")
 	stmt, err := tx.Prepare(sqSubs)
 	if err != nil {
 		tx.Rollback()
+		output.Error = err
+		return output
 	}
 
 	_, err = stmt.Exec(balance, fromAccountNumber)
 	if err != nil {
 		tx.Rollback()
+		output.Error = err
+		return output
 	}
 
 	sqAdd := fmt.Sprintf(sq, "balance +")
 	stmt, err = tx.Prepare(sqAdd)
 	if err != nil {
 		tx.Rollback()
+		output.Error = err
+		return output
 	}
 
 	_, err = stmt.Exec(balance, toAccountNumber)
 	if err != nil {
 		tx.Rollback()
+		output.Error = err
+		return output
 	}
 
 	defer stmt.Close()

@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="" />
+    <list default="true" id="3ef4ae92-bc54-4271-9ea2-2f1bc6579658" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/customer/usecase/customer_usecase_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/customer/repo/customer_repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/repo/customer_repo.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +75,7 @@
       <recent name="$PROJECT_DIR$/config/env" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)">
+  <component name="RunManager" selected="Go Test.TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_TransferSaldo_Balance in SkeletonAPI/modules/customer/usecase">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,68 +89,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerUseCaseImpl_TransferSaldo in SkeletonAPI/modules/customer/usecase (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
-      <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
+      <working_directory value="$PROJECT_DIR$/modules/customer/usecase" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="SkeletonAPI/modules/customer/repo" />
+      <package value="SkeletonAPI/modules/customer/usecase" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCustomerRepo_TransferSaldo\E$" />
+      <pattern value="^\QTestCustomerUseCaseImpl_TransferSaldo\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_CheckSaldo_ErrNoRows in SkeletonAPI/modules/customer/usecase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
-      <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
+      <working_directory value="$PROJECT_DIR$/modules/customer/usecase" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="SkeletonAPI/modules/customer/repo" />
+      <package value="SkeletonAPI/modules/customer/usecase" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCustomerRepo_TransferSaldo\E$" />
+      <pattern value="^\QTestCustomerUseCaseImpl_TransferSaldo\E$/^\QTest_Failed_CheckSaldo_ErrNoRows\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (5)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_CheckSaldo_cek_account_sumber_ErrConnDone in SkeletonAPI/modules/customer/usecase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
-      <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
+      <working_directory value="$PROJECT_DIR$/modules/customer/usecase" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="SkeletonAPI/modules/customer/repo" />
+      <package value="SkeletonAPI/modules/customer/usecase" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCustomerRepo_TransferSaldo\E$" />
+      <pattern value="^\QTestCustomerUseCaseImpl_TransferSaldo\E$/^\QTest_Failed_CheckSaldo_cek_account_sumber_ErrConnDone\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_TransferSaldo_Balance in SkeletonAPI/modules/customer/usecase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
-      <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
+      <working_directory value="$PROJECT_DIR$/modules/customer/usecase" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="SkeletonAPI/modules/customer/repo" />
+      <package value="SkeletonAPI/modules/customer/usecase" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCustomerRepo_TransferSaldo\E$" />
+      <pattern value="^\QTestCustomerUseCaseImpl_TransferSaldo\E$/^\QTest_Failed_TransferSaldo_Balance\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCustomerRepo_TransferSaldo/Test_Success_Transfer_Saldo in SkeletonAPI/modules/customer/repo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCustomerUseCaseImpl_TransferSaldo/Test_Success_TransferSaldo#01 in SkeletonAPI/modules/customer/usecase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SkeletonAPI" />
-      <working_directory value="$PROJECT_DIR$/modules/customer/repo" />
+      <working_directory value="$PROJECT_DIR$/modules/customer/usecase" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="SkeletonAPI/modules/customer/repo" />
+      <package value="SkeletonAPI/modules/customer/usecase" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCustomerRepo_TransferSaldo\E$/^\QTest_Success_Transfer_Saldo\E$" />
+      <pattern value="^\QTestCustomerUseCaseImpl_TransferSaldo\E$/^\QTest_Success_TransferSaldo#01\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (2)" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (1)" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo/Test_Success_Transfer_Saldo in SkeletonAPI/modules/customer/repo" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo" />
-        <item itemvalue="Go Test.TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (5)" />
+        <item itemvalue="Go Test.TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_TransferSaldo_Balance in SkeletonAPI/modules/customer/usecase" />
+        <item itemvalue="Go Test.TestCustomerUseCaseImpl_TransferSaldo/Test_Success_TransferSaldo#01 in SkeletonAPI/modules/customer/usecase" />
+        <item itemvalue="Go Test.TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_CheckSaldo_cek_account_sumber_ErrConnDone in SkeletonAPI/modules/customer/usecase" />
+        <item itemvalue="Go Test.TestCustomerUseCaseImpl_TransferSaldo/Test_Failed_CheckSaldo_ErrNoRows in SkeletonAPI/modules/customer/usecase" />
+        <item itemvalue="Go Test.TestCustomerUseCaseImpl_TransferSaldo in SkeletonAPI/modules/customer/usecase (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602212533416</updated>
       <workItem from="1602212534648" duration="20610000" />
-      <workItem from="1602284709222" duration="10323000" />
+      <workItem from="1602284709222" duration="13867000" />
     </task>
     <servers />
   </component>
@@ -188,50 +194,50 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="430" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1602229953430" />
-    <state x="483" y="145" key="#xdebugger.evaluate" timestamp="1602475477932">
+    <state x="483" y="145" key="#xdebugger.evaluate" timestamp="1602479051027">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.825@0.23.1440.825" timestamp="1602475477932" />
+    <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.825@0.23.1440.825" timestamp="1602479051027" />
     <state x="483" y="145" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1602254595080" />
-    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1602475772612">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1602552828053">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602475772612" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602552828053" />
     <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
-    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1602475772611">
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1602552828053">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1602552828053" />
     <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
-    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1602475772611">
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1602552828052">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1602552828052" />
     <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1602255406581" />
-    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1602475772611">
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1602552828053">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1602475772611" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1602552828053" />
     <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406582" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1602475507724">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1602552827799">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602475507724" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1602552827799" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1602255406584" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1602475507723">
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1602552827797">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1602552827797" />
     <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1602255406583" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1602475507723">
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1602552827796">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1602475507723" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1602552827796" />
     <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1602255406583" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1602475507724">
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1602552827798">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1602475507724" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1602552827798" />
     <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1602255406584" />
     <state x="144" y="94" key="MergeDialog" timestamp="1602475804046">
       <screen x="0" y="23" width="1440" height="825" />
@@ -241,13 +247,14 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="358" y="203" key="MultipleFileMergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1602475806011" />
-    <state width="720" height="411" key="XDebugger.FullValuePopup" timestamp="1602475154103">
+    <state width="720" height="411" key="XDebugger.FullValuePopup" timestamp="1602476079146">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="720" height="411" key="XDebugger.FullValuePopup/0.23.1440.825@0.23.1440.825" timestamp="1602475154103" />
-    <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602253154689">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="720" height="411" key="XDebugger.FullValuePopup/0.23.1440.825@0.23.1440.825" timestamp="1602476079146" />
+    <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602478538210">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.825@0.23.1440.825" timestamp="1602478538210" />
     <state x="260" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.826@0.23.1440.826" timestamp="1602253154689" />
     <state x="354" y="79" key="new project wizard" timestamp="1602229819723">
       <screen x="0" y="23" width="1440" height="825" />
@@ -258,35 +265,23 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/modules/customer/presenter/http_handler.go</url>
-          <line>42</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
+          <line>57</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
-          <line>68</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
-          <line>36</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/modules/customer/usecase/customer_usecase.go</url>
-          <line>40</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/modules/customer/repo/customer_repo.go</url>
-          <line>63</line>
-          <option name="timeStamp" value="22" />
+          <line>39</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SkeletonAPI$go_test_SkeletonAPI.out" NAME="go test SkeletonAPI Coverage Results" MODIFIED="1602474226689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SkeletonAPI$TestCustomerUseCaseImpl_CheckSaldo_Test_Failede_CheckSaldo_connection_in_SkeletonAPI_modules_customer_usecase.out" NAME="TestCustomerUseCaseImpl_CheckSaldo/Test_Failede_CheckSaldo_connection in SkeletonAPI/modules/customer/usecase Coverage Results" MODIFIED="1602477953263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SkeletonAPI$go_test_SkeletonAPI.out" NAME="go test SkeletonAPI Coverage Results" MODIFIED="1602478014597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SkeletonAPI$TestCustomerRepo_TransferSaldo_in_SkeletonAPI_modules_customer_repo__1_.out" NAME="TestCustomerRepo_TransferSaldo in SkeletonAPI/modules/customer/repo (1) Coverage Results" MODIFIED="1602474594682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SkeletonAPI$TestCustomerUseCaseImpl_CheckSaldo_Test_Failede_CheckSaldo_ErrNoRows_in_SkeletonAPI_modules_customer_usecase.out" NAME="TestCustomerUseCaseImpl_CheckSaldo/Test_Failede_CheckSaldo_ErrNoRows in SkeletonAPI/modules/customer/usecase Coverage Results" MODIFIED="1602477840586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SkeletonAPI$TestCustomerUseCaseImpl_CheckSaldo_Test_Success_CheckSaldo_in_SkeletonAPI_modules_customer_usecase.out" NAME="TestCustomerUseCaseImpl_CheckSaldo/Test_Success_CheckSaldo in SkeletonAPI/modules/customer/usecase Coverage Results" MODIFIED="1602477665122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
