@@ -15,5 +15,5 @@ type CustomerAccount struct {
 type TransferRequest struct {
 	FromAccountNumber int `json:"from_account_number"`
 	ToAccountNumber   int `json:"to_account_number"`
-	Amount            int    `json:"amount"`
+	Amount            int `json:"amount"`
 }

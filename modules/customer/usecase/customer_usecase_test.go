@@ -81,7 +81,7 @@ func TestCustomerUseCaseImpl_TransferSaldo(t *testing.T) {
 		assert.NoError(t, result.Error)
 	})
 
-	t.Run("Test Failed CheckSaldo cek account sumber ErrNoRows", func(t *testing.T) {
+	t.Run("Test Failed TransferSaldo cek account sumber ErrNoRows", func(t *testing.T) {
 		resultRepo := repo.ResultRepository{}
 		req := model.TransferRequest{}
 		resultRepo.Error = sql.ErrNoRows
@@ -96,7 +96,7 @@ func TestCustomerUseCaseImpl_TransferSaldo(t *testing.T) {
 		assert.Error(t, result.Error)
 	})
 
-	t.Run("Test Failed CheckSaldo cek account sumber ErrConnDone", func(t *testing.T) {
+	t.Run("Test Failed TransferSaldo cek account sumber ErrConnDone", func(t *testing.T) {
 		resultRepo := repo.ResultRepository{}
 		req := model.TransferRequest{}
 		resultRepo.Error = sql.ErrConnDone
@@ -111,7 +111,25 @@ func TestCustomerUseCaseImpl_TransferSaldo(t *testing.T) {
 		assert.Error(t, result.Error)
 	})
 
-	t.Run("Test Failed TransferSaldo Balance", func(t *testing.T) {
+	t.Run("Test Failed TransferSaldo cek balance", func(t *testing.T) {
+		customerAccount := model.CustomerAccount{Balance: 5000}
+		req := model.TransferRequest{Amount: 10000}
+
+		resultRepo := repo.ResultRepository{}
+		resultRepo.Result = customerAccount
+
+		mockRepo := new(repoMock.CustomerRepository)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepo)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepo)
+
+		customerUseCaseImpl := new(CustomerUseCaseImpl)
+		customerUseCaseImpl.CustomerRepo = mockRepo
+
+		result := customerUseCaseImpl.TransferSaldo(req)
+		assert.Error(t, result.Error)
+	})
+
+	t.Run("Test Failed TransferSaldo cek account sumber ErrNoRows", func(t *testing.T) {
 		customerAccount := model.CustomerAccount{}
 		req := model.TransferRequest{}
 
@@ -130,6 +148,50 @@ func TestCustomerUseCaseImpl_TransferSaldo(t *testing.T) {
 		customerUseCaseImpl.CustomerRepo = mockRepo
 
 		result := customerUseCaseImpl.TransferSaldo(req)
-		assert.NoError(t, result.Error)
+		assert.Error(t, result.Error)
+	})
+
+	t.Run("Test Failed TransferSaldo cek account sumber ErrConnDone", func(t *testing.T) {
+		customerAccount := model.CustomerAccount{}
+		req := model.TransferRequest{}
+
+		resultRepo := repo.ResultRepository{}
+		resultRepo.Result = customerAccount
+
+		resultRepoError := repo.ResultRepository{}
+		resultRepoError.Error = sql.ErrConnDone
+
+		mockRepo := new(repoMock.CustomerRepository)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepo)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepoError)
+		mockRepo.On("TransferSaldo", mock.Anything, mock.Anything, mock.Anything).Return(resultRepo)
+
+		customerUseCaseImpl := new(CustomerUseCaseImpl)
+		customerUseCaseImpl.CustomerRepo = mockRepo
+
+		result := customerUseCaseImpl.TransferSaldo(req)
+		assert.Error(t, result.Error)
+	})
+
+	t.Run("Test Failed TransferSaldo", func(t *testing.T) {
+		customerAccount := model.CustomerAccount{}
+		req := model.TransferRequest{}
+
+		resultRepo := repo.ResultRepository{}
+		resultRepo.Result = customerAccount
+
+		resultRepoError := repo.ResultRepository{}
+		resultRepoError.Error = sql.ErrConnDone
+
+		mockRepo := new(repoMock.CustomerRepository)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepo)
+		mockRepo.On("GetCustomerSaldo", mock.Anything).Once().Return(resultRepo)
+		mockRepo.On("TransferSaldo", mock.Anything, mock.Anything, mock.Anything).Return(resultRepoError)
+
+		customerUseCaseImpl := new(CustomerUseCaseImpl)
+		customerUseCaseImpl.CustomerRepo = mockRepo
+
+		result := customerUseCaseImpl.TransferSaldo(req)
+		assert.Error(t, result.Error)
 	})
 }
